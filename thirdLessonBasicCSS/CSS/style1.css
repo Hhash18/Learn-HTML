@@ -1,0 +1,38 @@
+/* CSS Selectors and Specificity */
+
+/* This use to select everything */
+* {
+    font-family: monospace;
+}
+
+h1 {
+    color: rgb(0, 30, 121);
+}
+
+h2 {
+    color: rgb(27, 83, 252);
+}
+
+p {
+    color: rgba(88, 2, 91, 0.619);
+}
+
+/* span styling in here */
+p span {
+    text-transform: uppercase;
+    background-color: yellow;
+}
+.highlight {
+    text-transform: uppercase;
+    background-color: rgb(11, 254, 31);
+}
+
+/* class="gray" styling in here [class selectors are more specific]*/
+.gray {
+    color: gray;
+}
+
+/* id="second" styling in here */
+#second {
+    font-style: italic;
+}
